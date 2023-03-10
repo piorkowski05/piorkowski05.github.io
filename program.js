@@ -17,14 +17,11 @@ const gwiazda = add([
     pos(0,115)
 ])
 
-add([
-   play("muzyka")
-])
 
 onUpdate(()=>{
     if(gwiazda.pos.x<600) gwiazda.pos.x ++
 })
 
-// keyRelease("space", ()=>{
-//     play("muzyka")
-// })
+onKeyRelease("space", ()=>{
+     play("muzyka")
+ })
