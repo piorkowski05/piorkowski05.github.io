@@ -18,7 +18,7 @@ const gwiazda = add([
 ])
 
 add([
- /  play("muzyka")
+   play("muzyka")
 ])
 
 onUpdate(()=>{
